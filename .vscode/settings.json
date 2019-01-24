@@ -1,0 +1,40 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "dist": true
+    },
+    "vsicons.presets.angular": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "bottom",
+    "editor.minimap.enabled": false,
+    // "workbench.editor.showTabs": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.enablePreview": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "javascript.validate.enable": false,
+    "insertDateString.format": "YYYY-MM-DD hh:mm",
+    "git.ignoreLimitWarning": true
+}
