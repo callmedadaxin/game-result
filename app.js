@@ -13,7 +13,7 @@ app.use("/static", express.static(path.join(__dirname, "./build/static")));
 app.use(
   "/game/*",
   proxy({
-    target: "http://42.159.94.242:8080/",
+    target: "http://117.50.107.7:80",
     changeOrigin: true
   })
 );

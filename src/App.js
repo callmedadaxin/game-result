@@ -24,9 +24,17 @@ class App extends Component {
     }, 1000);
   };
   refresh = () => {
-    this.timer = setInterval(() => {
-      this.getRank();
-    }, 1000);
+    // this.timer = setInterval(() => {
+    //   this.getRank();
+    // }, 1000);
+
+    const time = parseInt(100000 * Math.random());
+
+    post("/game/upload", {
+      nickName: String(Math.random()),
+      useTime: time
+    });
+    console.log(time);
   };
   setTime() {
     const time = moment().format("YYYY-MM-DD HH:mm:ss");
@@ -44,7 +52,8 @@ class App extends Component {
       time
     });
     this.setState({
-      start: false
+      start: false,
+      limit: 5 * 60 * 1000
     });
     clearInterval(this.timer);
   };
