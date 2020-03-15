@@ -1072,8 +1072,8 @@ acorn-walk@^6.0.1:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.1.0.tgz#c957f4a1460da46af4a0388ce28b4c99355b0cbc"
 
 acorn@^5.0.0, acorn@^5.0.3, acorn@^5.5.3, acorn@^5.6.0, acorn@^5.6.2:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
 
 acorn@^6.0.1, acorn@^6.0.2:
   version "6.0.2"
@@ -2555,7 +2555,7 @@ debug@=3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.1, debug@^3.1.0, debug@^3.2.5:
+debug@^3.1.0, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   dependencies:
@@ -2929,10 +2929,6 @@ es-to-primitive@^1.1.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-es6-promise@^4.1.1:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.5.tgz#da6d0d5692efb461e082c14817fe2427d8f5d054"
-
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -3231,14 +3227,6 @@ expect@^23.6.0:
     jest-matcher-utils "^23.6.0"
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
-
-express-http-proxy@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/express-http-proxy/-/express-http-proxy-1.5.1.tgz#cbf45695c759693c9c5f946117462d25b57e77a8"
-  dependencies:
-    debug "^3.0.1"
-    es6-promise "^4.1.1"
-    raw-body "^2.3.0"
 
 express@^4.16.2, express@^4.16.4:
   version "4.16.4"
@@ -6943,7 +6931,7 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
-raw-body@2.3.3, raw-body@^2.3.0:
+raw-body@2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/raw-body/-/raw-body-2.3.3.tgz#1b324ece6b5706e153855bc1148c65bb7f6ea0c3"
   dependencies:
